@@ -57,3 +57,45 @@ public class MeineAdditionEVA {
 	}
 
 }
+----------------------------------------------------------------------
+package aufgaben;
+
+import java.util.Scanner;
+
+public class FloatDivisonEVA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner x = new Scanner(System.in);
+		double nummer1, nummer2;
+		nummer1 = x.nextInt();
+		nummer2 = x.nextInt();
+		System.out.print(nummer1/nummer2);
+		x.close();
+		
+	}
+
+}
+---------------------------------------------------------------------------
+package aufgaben;
+
+import java.util.Scanner;
+
+public class Willkommen {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner x = new Scanner(System.in);
+		String vorname;
+		String nachname;
+		System.out.print("Ihr Vorname:");
+		vorname = x.nextLine();
+		System.out.print("Ihr Nachname:");
+		nachname = x.nextLine();
+		System.out.print("Herzlich Willkommen:"+vorname + nachname);
+		
+	}
+
+}
